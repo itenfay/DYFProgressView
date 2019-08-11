@@ -1,3 +1,7 @@
+<div align=center>
+<img src="https://github.com/dgynfi/DYFProgressView/raw/master/images/DYFProgressView.png" width="90%">
+</div>
+
 [如果你觉得能帮助到你，请给一颗小星星。谢谢！(If you think it can help you, please give it a star. Thanks!)](https://github.com/dgynfi/DYFProgressView)
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
@@ -10,6 +14,12 @@
 ## DYFProgressView
 
 超好用的进度条和网页进度条，操作简单好用。(Super useful progress bar and web page progress bar. The operation is simple and easy to use.)
+
+## 效果图
+
+<div align=left>
+<img src="https://github.com/dgynfi/DYFProgressView/raw/master/images/ProgressViewPreview.gif" width="40%" />
+</div>
 
 ## 使用说明
 
@@ -30,7 +40,6 @@
     }
     return _progressView;
 }
-
 ```
 
 2. 添加到父视图
@@ -42,7 +51,9 @@
         [self.navigationBar addSubview:self.progressView];
     }
 }
+```
 
+```ObjC
 // 在开始加载进度前，调用它
 [self addProgressView];
 ```
@@ -58,3 +69,7 @@
 ```ObjC
 [self.progressView endLoading];
 ```
+
+## Sample Codes
+
+- [Sample Codes Gateway](https://github.com/dgynfi/DYFProgressView/blob/master/Basic%20Files/DYFDisplayViewController.m)
