@@ -1,5 +1,5 @@
 <div align=center>
-<img src="https://github.com/dgynfi/DYFProgressView/raw/master/images/DYFProgressView.png" width="90%">
+<img src="https://github.com/dgynfi/DYFProgressView/raw/master/images/DYFProgressView.png" width="70%">
 </div>
 
 [如果你觉得能帮助到你，请给一颗小星星。谢谢！(If you think it can help you, please give it a star. Thanks!)](https://github.com/dgynfi/DYFProgressView)
@@ -14,7 +14,7 @@
 
 - 欢迎加入技术交流群，一起探讨技术问题。
 
-<div align=center>
+<div align=left>
 <img src="https://github.com/dgynfi/DYFProgressView/raw/master/images/qq155353383.jpg" width="20%" />
 </div>
 
@@ -190,6 +190,15 @@
 
     return nil;
 }
+```
+
+9. The navigation item’s title displayed in the navigation bar.
+
+```
+- (void)setupNavigationItemTitle {
+    self.navigationItem.title = self.wk_webView.title;
+}
+
 ```
 
 ## Sample Codes
