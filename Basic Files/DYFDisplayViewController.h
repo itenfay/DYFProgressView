@@ -6,15 +6,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
-NS_ASSUME_NONNULL_BEGIN
+#import <WebKit/WebKit.h>
 
 @interface DYFDisplayViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UIWebView *m_webView;
+@property (copy, nonatomic) NSString *aUrl;
 
-@property (copy, nonatomic) NSString *urlString;
+@property (strong, nonatomic) WKWebView *wk_webView;
 
 @end
-
-NS_ASSUME_NONNULL_END

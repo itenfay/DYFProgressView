@@ -10,7 +10,7 @@
 
 @interface ViewController ()
 
-@property (nonatomic, strong) DYFDisplayViewController *dvc;
+@property (nonatomic, strong) DYFDisplayViewController *displayViewController;
 
 @end
 
@@ -18,11 +18,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationItem.title = @"DYFProgressView Demo";
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    self.dvc = nil;
+    self.displayViewController = nil;
 }
 
 - (IBAction)loadBaidu:(id)sender {
@@ -33,16 +34,17 @@
     [self pushWithUrl:@"https://github.com/dgynfi/"];
 }
 
-- (void)pushWithUrl:(NSString *)urlStr {
-    self.dvc.urlString = urlStr;
-    [self.navigationController pushViewController:self.dvc animated:YES];
+- (void)pushWithUrl:(NSString *)aUrl {
+    DYFDisplayViewController *dvc = self.displayViewController;
+    dvc.aUrl = aUrl;
+    [self.navigationController pushViewController:dvc animated:YES];
 }
 
-- (DYFDisplayViewController *)dvc {
-    if (!_dvc) {
-        _dvc = [[DYFDisplayViewController alloc] init];
+- (DYFDisplayViewController *)displayViewController {
+    if (!_displayViewController) {
+        _displayViewController = [[DYFDisplayViewController alloc] init];
     }
-    return _dvc;
+    return _displayViewController;
 }
 
 @end

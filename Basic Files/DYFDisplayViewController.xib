@@ -11,7 +11,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DYFDisplayViewController">
             <connections>
-                <outlet property="m_webView" destination="aHy-Mf-plU" id="cJP-Zs-l59"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -19,21 +18,7 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <subviews>
-                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aHy-Mf-plU">
-                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                </webView>
-            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-            <constraints>
-                <constraint firstItem="aHy-Mf-plU" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="62l-R6-W8s"/>
-                <constraint firstItem="aHy-Mf-plU" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="JkE-nL-IMB"/>
-                <constraint firstItem="aHy-Mf-plU" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Z7x-wy-rfN"/>
-                <constraint firstItem="aHy-Mf-plU" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="l9y-qV-7MY"/>
-                <constraint firstAttribute="bottom" secondItem="aHy-Mf-plU" secondAttribute="bottom" id="ofU-oG-Isu"/>
-                <constraint firstAttribute="trailing" secondItem="aHy-Mf-plU" secondAttribute="trailing" id="uEA-Xq-TrX"/>
-            </constraints>
             <point key="canvasLocation" x="131.8840579710145" y="110.49107142857143"/>
         </view>
     </objects>
