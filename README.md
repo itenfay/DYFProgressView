@@ -5,6 +5,8 @@
 [如果你觉得能帮助到你，请给一颗小星星。谢谢！(If you think it can help you, please give it a star. Thanks!)](https://github.com/dgynfi/DYFProgressView)
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
+[![CocoaPods](http://img.shields.io/cocoapods/v/DYFProgressView.svg?style=flat)](http://cocoapods.org/pods/DYFProgressView)&nbsp;
+![CocoaPods](http://img.shields.io/cocoapods/p/DYFProgressView.svg?style=flat)&nbsp;
 
 ## DYFProgressView
 
@@ -17,6 +19,18 @@
 <div align=left>
 <img src="https://github.com/dgynfi/DYFProgressView/raw/master/images/qq155353383.jpg" width="20%" />
 </div>
+
+## 安装
+
+- 支持通过 CocoaPods 安装。
+```pod install
+pod 'DYFProgressView', '~> 1.0.9'
+```
+或者
+```
+# Installs lastest version.
+pod 'DYFProgressView'
+```
 
 ## 效果图
 
