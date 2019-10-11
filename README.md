@@ -10,7 +10,7 @@
 
 ## DYFProgressView
 
-超好用的进度条和网页进度条，操作简单好用。(Super useful progress bar and web page progress bar, the operation is simple and easy to use.)
+&emsp; 超好用的进度条和网页进度条，操作简单好用。(Super useful progress bar and web page progress bar, the operation is simple and easy to use.)
 
 ## 技术交流群(群号:155353383) 
 
@@ -23,10 +23,13 @@
 ## 安装
 
 - 支持通过 CocoaPods 安装。
+
 ```pod install
 pod 'DYFProgressView', '~> 1.0.9'
 ```
+
 或者
+
 ```
 # Installs lastest version.
 pod 'DYFProgressView'
@@ -218,3 +221,4 @@ pod 'DYFProgressView'
 ## Sample Codes
 
 - [Sample Codes Gateway](https://github.com/dgynfi/DYFProgressView/blob/master/Basic%20Files/DYFDisplayViewController.m)
+
