@@ -2,10 +2,10 @@
 Pod::Spec.new do |s|
 
   s.name         = "DYFProgressView"
-  s.version      = "1.0.9"
+  s.version      = "1.1.0"
   s.summary      = "Super useful progress bar and web page progress bar."
   s.description  = <<-DESC
-	A simple QR code and barcode scanner, which has a set of custom scanning animation and interface, supports camera zooming, and can generate and identify QR code.
+	Super useful progress bar and web page progress bar, the operation is simple and easy to use.
                    DESC
 
   s.homepage     = "https://github.com/dgynfi/DYFProgressView"

@@ -2,7 +2,7 @@
 <img src="https://github.com/dgynfi/DYFProgressView/raw/master/images/DYFProgressView.png" width="70%">
 </div>
 
-[如果你觉得能帮助到你，请给一颗小星星。谢谢！(If you think it can help you, please give it a star. Thanks!)](https://github.com/dgynfi/DYFProgressView)
+[如果此项目能帮助到你，就请你给一颗星。谢谢！(If this project can help you, please give it a star. Thanks!)](https://github.com/dgynfi/DYFProgressView)
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
 [![CocoaPods](http://img.shields.io/cocoapods/v/DYFProgressView.svg?style=flat)](http://cocoapods.org/pods/DYFProgressView)&nbsp;
@@ -10,44 +10,43 @@
 
 ## DYFProgressView
 
-&emsp; 超好用的进度条和网页进度条，操作简单好用。(Super useful progress bar and web page progress bar, the operation is simple and easy to use.)
+超好用的进度条和网页进度条，操作简单好用。(Super useful progress bar and web page progress bar, the operation is simple and easy to use.)
 
-## 技术交流群(群号:155353383) 
-
-- 欢迎加入技术交流群，一起探讨技术问题。
+## Group (ID:614799921)
 
 <div align=left>
-<img src="https://github.com/dgynfi/DYFProgressView/raw/master/images/qq155353383.jpg" width="20%" />
+&emsp; <img src="https://github.com/dgynfi/DYFProgressView/raw/master/images/g614799921.jpg" width="30%" />
 </div>
 
-## 安装
+## Installation
 
-- 支持通过 CocoaPods 安装。
+Using [CocoaPods](https://cocoapods.org):
 
 ```pod install
-pod 'DYFProgressView', '~> 1.0.9'
+pod 'DYFProgressView', '~> 1.1.0'
 ```
 
-或者
+Or
 
 ```
 # Installs lastest version.
 pod 'DYFProgressView'
 ```
 
-## 效果图
+## Preview
 
 <div align=left>
-<img src="https://github.com/dgynfi/DYFProgressView/raw/master/images/ProgressViewPreview.gif" width="40%" />
+&emsp; <img src="https://github.com/dgynfi/DYFProgressView/raw/master/images/ProgressViewPreview.gif" width="40%" />
 </div>
 
-## 使用说明
+## Usage
 
 1. 实例化
 
 ```ObjC
 // Lazy load
 - (DYFWebProgressView *)progressView {
+    
     if (!_progressView) {
         CGFloat w = self.navigationBar.bounds.size.width;
         CGFloat h = 3.f;
@@ -61,6 +60,7 @@ pod 'DYFProgressView'
                                                    blue:RGB_V(255) 
                                                   alpha:1];
     }
+    
     return _progressView;
 }
 
@@ -98,7 +98,7 @@ pod 'DYFProgressView'
 [self.progressView endLoading];
 ```
 
-## 如何接入 WKWebView ?
+## How to embed the WKWebView ?
 
 1. Invoked when a main frame navigation starts.
 
@@ -215,10 +215,8 @@ pod 'DYFProgressView'
 - (void)setupNavigationItemTitle {
     self.navigationItem.title = self.wk_webView.title;
 }
-
 ```
 
-## Sample Codes
+## Code Sample
 
-- [Sample Codes Gateway](https://github.com/dgynfi/DYFProgressView/blob/master/Basic%20Files/DYFDisplayViewController.m)
-
+- [Code Sample Portal](https://github.com/dgynfi/DYFProgressView/blob/master/Basic%20Files/DYFDisplayViewController.m)
