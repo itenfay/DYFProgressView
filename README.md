@@ -1,8 +1,8 @@
 <div align=center>
-<img src="https://github.com/dgynfi/DYFProgressView/raw/master/images/DYFProgressView.png" width="70%">
+<img src="https://github.com/chenxing640/DYFProgressView/raw/master/images/DYFProgressView.png" width="70%">
 </div>
 
-[如果此项目能帮助到你，就请你给一颗星。谢谢！(If this project can help you, please give it a star. Thanks!)](https://github.com/dgynfi/DYFProgressView)
+[如果此项目能帮助到你，就请你给一颗星。谢谢！(If this project can help you, please give it a star. Thanks!)](https://github.com/chenxing640/DYFProgressView)
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
 [![CocoaPods](http://img.shields.io/cocoapods/v/DYFProgressView.svg?style=flat)](http://cocoapods.org/pods/DYFProgressView)&nbsp;
@@ -15,7 +15,7 @@
 ## Group (ID:614799921)
 
 <div align=left>
-&emsp; <img src="https://github.com/dgynfi/DYFProgressView/raw/master/images/g614799921.jpg" width="30%" />
+&emsp; <img src="https://github.com/chenxing640/DYFProgressView/raw/master/images/g614799921.jpg" width="30%" />
 </div>
 
 ## Installation
@@ -36,7 +36,7 @@ pod 'DYFProgressView'
 ## Preview
 
 <div align=left>
-&emsp; <img src="https://github.com/dgynfi/DYFProgressView/raw/master/images/ProgressViewPreview.gif" width="40%" />
+&emsp; <img src="https://github.com/chenxing640/DYFProgressView/raw/master/images/ProgressViewPreview.gif" width="40%" />
 </div>
 
 ## Usage
@@ -46,7 +46,6 @@ pod 'DYFProgressView'
 ```ObjC
 // Lazy load
 - (DYFWebProgressView *)progressView {
-    
     if (!_progressView) {
         CGFloat w = self.navigationBar.bounds.size.width;
         CGFloat h = 3.f;
@@ -60,7 +59,6 @@ pod 'DYFProgressView'
                                                    blue:RGB_V(255) 
                                                   alpha:1];
     }
-    
     return _progressView;
 }
 
@@ -219,4 +217,4 @@ pod 'DYFProgressView'
 
 ## Code Sample
 
-- [Code Sample Portal](https://github.com/dgynfi/DYFProgressView/blob/master/Basic%20Files/DYFDisplayViewController.m)
+- [Code Sample Portal](https://github.com/chenxing640/DYFProgressView/blob/master/Basic%20Files/DYFDisplayViewController.m)
