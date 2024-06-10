@@ -1,42 +1,41 @@
 <div align=center>
-<img src="https://github.com/chenxing640/DYFProgressView/raw/master/images/DYFProgressView.png" width="70%">
+<img src="https://github.com/itenfay/DYFProgressView/raw/master/images/DYFProgressView.png" width="50%">
 </div>
 
-[如果此项目能帮助到你，就请你给一颗星。谢谢！(If this project can help you, please give it a star. Thanks!)](https://github.com/chenxing640/DYFProgressView)
-
-[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
-[![CocoaPods](http://img.shields.io/cocoapods/v/DYFProgressView.svg?style=flat)](http://cocoapods.org/pods/DYFProgressView)&nbsp;
-![CocoaPods](http://img.shields.io/cocoapods/p/DYFProgressView.svg?style=flat)&nbsp;
+如果能帮助到你，请你给[一颗星](https://github.com/itenfay/DYFProgressView)，谢谢！(If this can help you, please give it a [star](https://github.com/itenfay/DYFProgressView). Thanks!)
 
 ## DYFProgressView
 
 超好用的进度条和网页进度条，操作简单好用。(Super useful progress bar and web page progress bar, the operation is simple and easy to use.)
 
+[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
+[![CocoaPods](http://img.shields.io/cocoapods/v/DYFProgressView.svg?style=flat)](http://cocoapods.org/pods/DYFProgressView)&nbsp;
+![CocoaPods](http://img.shields.io/cocoapods/p/DYFProgressView.svg?style=flat)&nbsp;
+
 ## Group (ID:614799921)
 
 <div align=left>
-&emsp; <img src="https://github.com/chenxing640/DYFProgressView/raw/master/images/g614799921.jpg" width="30%" />
+&emsp; <img src="https://github.com/itenfay/DYFProgressView/raw/master/images/g614799921.jpg" width="30%" />
 </div>
 
 ## Installation
 
 Using [CocoaPods](https://cocoapods.org):
 
-```pod install
-pod 'DYFProgressView', '~> 1.1.0'
+```
+pod 'DYFProgressView'
 ```
 
 Or
 
-```
-# Installs lastest version.
-pod 'DYFProgressView'
+```pod install
+pod 'DYFProgressView', '~> 1.2.0'
 ```
 
 ## Preview
 
 <div align=left>
-&emsp; <img src="https://github.com/chenxing640/DYFProgressView/raw/master/images/ProgressViewPreview.gif" width="40%" />
+&emsp; <img src="https://github.com/itenfay/DYFProgressView/raw/master/images/ProgressViewPreview.gif" width="40%" />
 </div>
 
 ## Usage
@@ -215,6 +214,6 @@ pod 'DYFProgressView'
 }
 ```
 
-## Code Sample
+## Sample
 
-- [Code Sample Portal](https://github.com/chenxing640/DYFProgressView/blob/master/Basic%20Files/DYFDisplayViewController.m)
+- [Code Sample Portal](https://github.com/itenfay/DYFProgressView/blob/master/Basic%20Files/DYFDisplayViewController.m)

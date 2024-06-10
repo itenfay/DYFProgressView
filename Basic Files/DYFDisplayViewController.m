@@ -1,8 +1,8 @@
 //
 //  DYFDisplayViewController.m
 //
-//  Created by dyf on 17/5/27.
-//  Copyright © 2017 dyf. All rights reserved.
+//  Created by Tenfay on 17/5/27.
+//  Copyright © 2017 Tenfay. All rights reserved.
 //
 
 #import "DYFDisplayViewController.h"
@@ -262,7 +262,7 @@
 - (void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler {
     // decidePolicyForNavigationAction.
     [self setupNavigationItemTitle];
-
+    
     NSURL *aURL = [navigationAction.request.URL copy];
     NSString *aUrl = aURL.absoluteString;
     NSLog(@"%s url: %@", __FUNCTION__, aUrl);
@@ -271,8 +271,8 @@
     
     // Method NO.1: resolve the problem about '_blank'.
     //if (navigationAction.targetFrame == nil) {
-        //NSLog(@"- [webView loadRequest:navigationAction.request]");
-        //[webView loadRequest:navigationAction.request];
+    //NSLog(@"- [webView loadRequest:navigationAction.request]");
+    //[webView loadRequest:navigationAction.request];
     //}
     
     decisionHandler(WKNavigationActionPolicyAllow);

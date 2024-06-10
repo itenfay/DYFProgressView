@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
 //
-//  Created by dyf on 17/5/27.
-//  Copyright © 2017 dyf. All rights reserved.
+//  Created by Tenfay on 17/5/27.
+//  Copyright © 2017 Tenfay. All rights reserved.
 //
 
 #import "AppDelegate.h"

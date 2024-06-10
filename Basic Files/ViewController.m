@@ -1,8 +1,8 @@
 //
 //  ViewController.m
 //
-//  Created by dyf on 17/5/27.
-//  Copyright © 2017 dyf. All rights reserved.
+//  Created by Tenfay on 17/5/27.
+//  Copyright © 2017 Tenfay. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -31,7 +31,7 @@
 }
 
 - (IBAction)loadMyGithub:(id)sender {
-    [self pushWithUrl:@"https://github.com/dgynfi/"];
+    [self pushWithUrl:@"https://github.com/itenfay/"];
 }
 
 - (void)pushWithUrl:(NSString *)aUrl {

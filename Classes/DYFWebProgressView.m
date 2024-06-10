@@ -1,8 +1,8 @@
 //
 //  DYFWebProgressView.m
 //
-//  Created by dyf on 17/5/27.
-//  Copyright © 2017 dyf. All rights reserved.
+//  Created by Tenfay on 2017/5/27.
+//  Copyright © 2017 Tenfay. All rights reserved.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -121,7 +121,7 @@
     [self invalidateTimer];
     [self setProgress:1.f animated:YES];
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW,
-                                (int64_t)(0.25 * NSEC_PER_SEC)),
+                                 (int64_t)(0.25 * NSEC_PER_SEC)),
                    dispatch_get_main_queue(), ^{
         [self updateAlpha:0.f];
         [self setProgress:0.f];
