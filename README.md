@@ -28,8 +28,8 @@ pod 'DYFProgressView'
 
 Or
 
-```pod install
-pod 'DYFProgressView', '~> 1.2.0'
+```
+pod 'DYFProgressView', '~> 1.2.1'
 ```
 
 ## Preview

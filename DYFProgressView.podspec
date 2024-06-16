@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "DYFProgressView"
-  s.version      = "1.2.0"
+  s.version      = "1.2.1"
   s.summary      = "Super useful progress bar and web page progress bar."
   s.description  = <<-DESC
   Super useful progress bar and web page progress bar, the operation is simple and easy to use.
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
-  s.author       = { "Tenfay" => "hansen981@126.com" }
+  s.author       = { "Tenfay" => "itenfay@163.com" }
 
   s.platform     = :ios
   s.ios.deployment_target 	= "8.0"
